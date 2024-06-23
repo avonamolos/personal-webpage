@@ -54,6 +54,10 @@ header {
         width: 70%;
     }
 
+    footer > div > p {
+        font-size: 0.87em;
+    }
+
 }
 
 header h1 {
