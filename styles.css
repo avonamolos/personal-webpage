@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: "Space Mono", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #fd68b3;
+    color: #9f0f58;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgba(105, 21, 91, 0.37) 3px solid;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Align items vertically */
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    position: relative;
+    top: -6px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #882f5a; /* Slightly darker pink on hover */
+}
+
+/* Section */
+section {
+    padding: 20px 0;
+}
+
+#about, #portfolio, #hobby, #contact {
+    padding: 20px 0;
+    background: #ffffff;
+}
+
+#about h2, #portfolio h2, #hobby h2, #contact h2 {
+    color: #00007F;
+}
+
+#hobby audio {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+#portfolio .portfolio-item {
+    margin: 20px 0;
+}
+
+#portfolio .portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio .portfolio-item h3 {
+    margin: 10px 0 0 0;
+}
+
+#portfolio .portfolio-item p {
+    margin: 5px 0 0 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.maybe {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 80%;
+}
+
+#contact > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item:hover .change-stroke {
+    stroke: #FF25A0;
+    transition: stroke 0.5s ease 0s;
+}
+
+.item:hover .change-fill {
+    fill: #FF25A0;
+    transition: fill 0.5s ease 0s;
+}
+
+#centermepls {
+    text-align: center;
+}
+
