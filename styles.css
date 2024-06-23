@@ -26,6 +26,35 @@ header {
     align-items: center; /* Align items vertically */
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 93%;
+    }
+}
+
+@media (max-width: 376px) {
+    body > div > header > div > nav > ul > li:nth-child(n) > a {
+        font-size: 0.8em;
+    }
+    body > div > header > div > nav > ul {
+        /*padding-right: 30px;*/
+    }
+    body > div > header > div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #hobby > div > div .vid{
+        width: 45%;
+        height: 136px;
+    }
+
+    #contact > div > div {
+        width: 70%;
+    }
+
+}
 
 header h1 {
     float: left;
